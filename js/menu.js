@@ -18,13 +18,15 @@ function stickyMenu()
 
 // ---------------- SLIDER ----------------
 
-var counter = 1;
-setInterval(function (){
-    document.getElementById('radio' + counter).checked = true;
-    counter++;
-    if(counter > 4)
-    {
-        counter = 1;
-    }
-}, 5000);
-
+document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#image-slider', {
+        cover      : true,
+        height: '100vh',
+        autoplay: true,
+        pauseOnHover: false,
+        direction: 'ttb',
+        rewind: true,
+        arrows: false,
+        speed: 800,
+    } ).mount();
+} );

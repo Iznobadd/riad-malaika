@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Riad Malaïka</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css">
+    <script src="splide.min.js"></script>
 </head>
 <body>
 <!-- ----------- HEADER ----------- -->
@@ -28,42 +30,21 @@
     </nav>
 
 </header>
-    <div class="head">
-        <div class="slider">
-            <div class="slides">
-                <input type="radio" name="radio-btn" id="radio1">
-                <input type="radio" name="radio-btn" id="radio2">
-                <input type="radio" name="radio-btn" id="radio3">
-                <input type="radio" name="radio-btn" id="radio4">
-                <div class="slide first">
-                    <img src="images/riad-patio.jpg" alt="Background img" class="bg-img">
-                </div>
-                <div class="slide">
-                    <img src="images/latable1.jpg" alt="Background img" class="bg-img">
-                </div>
-                <div class="slide">
-                    <img src="images/reception.jpg" alt="Background img" class="bg-img">
-                </div>
-                <div class="slide">
-                    <img src="images/terrasse.jpg" alt="Background img" class="bg-img">
-                </div>
-
-                <div class="navigation-auto">
-                    <div class="auto-btn1"></div>
-                    <div class="auto-btn2"></div>
-                    <div class="auto-btn3"></div>
-                    <div class="auto-btn4"></div>
-                </div>
-
-                <div class="navigation-manual">
-                    <label for="radio1" class="manual-btn"></label>
-                    <label for="radio2" class="manual-btn"></label>
-                    <label for="radio3" class="manual-btn"></label>
-                    <label for="radio4" class="manual-btn"></label>
-                </div>
-            </div>
-        </div>
+<div id="image-slider" class="splide">
+    <div class="splide__track">
+        <ul class="splide__list">
+            <li class="splide__slide">
+                <img src="images/terrasse.jpg">
+            </li>
+            <li class="splide__slide">
+                <img src="images/reception.jpg">
+            </li>
+            <li class="splide__slide">
+                <img src="images/riad-patio.jpg">
+            </li>
+        </ul>
     </div>
+</div>
 
 <!-- ----------- RESERVATION RIAD ----------- -->
 
@@ -90,6 +71,8 @@
 
 <h1>qsdqsdqs</h1>
 
+
 <script src="js/menu.js"></script>
+
 </body>
 </html>
