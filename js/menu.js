@@ -27,6 +27,48 @@ document.addEventListener( 'DOMContentLoaded', function () {
         direction: 'ttb',
         rewind: true,
         arrows: false,
-        speed: 800,
+        speed: 3600,
+    } ).mount();
+} );
+
+document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#image-restaurant', {
+        height: '70vh',
+        width: '120vh',
+        arrows: false,
+        cover: true,
+        autoplay: true,
+        type: 'fade',
+        pagination: false,
+        speed: 1500,
+        rewind: true,
+    } ).mount();
+} );
+
+document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#image-patio', {
+        height: '70vh',
+        width: '120vh',
+        arrows: false,
+        cover: true,
+        autoplay: true,
+        type: 'fade',
+        pagination: false,
+        speed: 1500,
+        rewind: true,
+    } ).mount();
+} );
+
+document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#image-salons', {
+        height: '70vh',
+        width: '120vh',
+        arrows: false,
+        cover: true,
+        autoplay: true,
+        type: 'fade',
+        pagination: false,
+        speed: 1500,
+        rewind: true,
     } ).mount();
 } );

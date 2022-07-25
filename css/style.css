@@ -12,20 +12,18 @@ a
     color: black;
 }
 
-/* ------------------ HEADER ------------------ */
-/*.head*/
-/*{*/
-/*    height: 100vh;*/
-/*}*/
-/*.head .bg-img*/
-/*{*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    object-fit: cover;*/
-/*}*/
+p
+{
+    text-align: justify;
+    font-size: 20px;
+}
 
-
-
+h1, h2
+{
+    font-family: 'Allison', sans-serif;
+    font-weight: normal;
+    font-size: 80px;
+}
 
 /* ------------------ MENU ------------------ */
 
@@ -34,7 +32,7 @@ nav
     margin-top: 20px;
     width: 100%;
     position: absolute;
-    z-index: 10;
+    z-index: 30;
 }
 nav ul
 {
@@ -60,7 +58,7 @@ nav a:hover
 
 .sticky {
     position: fixed;
-    top: 0;
+    top: 20px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     margin: 0;
@@ -78,11 +76,7 @@ nav a:hover
     display: flex;
     justify-content: space-between;
     column-gap: 50px;
-}
-
-.riad-imgs
-{
-
+    margin-bottom: 100px;
 }
 
 .riad-imgs img
@@ -106,17 +100,21 @@ nav a:hover
 
 .riad-description h1
 {
-    font-family: 'Allison', sans-serif;
-    font-weight: normal;
-    font-size: 80px;
     margin-bottom: 100px;
+}
+
+.riad-description h1::after
+{
+    display: block;
+    height: 5px;
+    width:8%;
+    background-color: black;
+    content: '';
 }
 
 .riad-description p
 {
 
-    text-align: justify;
-    font-size: 20px;
     margin-bottom: 35px;
 }
 
@@ -132,4 +130,86 @@ nav a:hover
 {
     background-color: #C1A253;
     color: white;
+}
+
+/* ------------------ BANNER RIAD ------------------ */
+
+.riad-banner
+{
+    position: relative;
+    width: 100%;
+    height: 417px;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.7)), url("../images/riad-patio.jpg") fixed no-repeat;
+    background-size: cover;
+    background-position: 0 80%;
+}
+
+.riad-banner h2
+{
+    position: absolute;
+    font-family: 'Allison', sans-serif;
+    font-weight: normal;
+    font-size: 80px;
+    top: 0;
+    left: 50%;
+    color: white;
+    text-align: center;
+    transform: translate(-50%, 0);
+    width: 100%;
+}
+
+/* ------------------ RESTAURANT ------------------ */
+
+.restaurant
+{
+    background-color: #C1A253;
+    padding-bottom: 20px;
+    margin-bottom: 2px;
+}
+
+.restaurant h1, .patio h1, .patio h2, .salons h1, .salons h2
+{
+    text-align: center;
+}
+
+#image-restaurant, #image-patio, #image-salons
+{
+    margin: auto;
+}
+
+/* ------------------ PATIO ------------------ */
+
+.patio
+{
+    background-color: #232323;
+    padding-bottom: 20px;
+    margin-bottom: 2px;
+}
+
+.patio > *
+{
+    color: white;
+}
+
+.patio .container, .salons .container
+{
+   margin-top: 0;
+}
+.patio h1, .salons h1
+{
+    margin-top: 0;
+}
+
+.patio h2, .salons h2
+{
+    font-size: 40px;
+}
+
+/* ------------------ SALONS ------------------ */
+
+.salons
+{
+    background-color: #E8E8E8;
+    padding-bottom: 20px;
+    margin-bottom: 2px;
 }
