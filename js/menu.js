@@ -72,3 +72,17 @@ document.addEventListener( 'DOMContentLoaded', function () {
         rewind: true,
     } ).mount();
 } );
+
+document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#image-terrasse', {
+        height: '70vh',
+        width: '120vh',
+        arrows: false,
+        cover: true,
+        autoplay: true,
+        type: 'fade',
+        pagination: false,
+        speed: 1500,
+        rewind: true,
+    } ).mount();
+} );

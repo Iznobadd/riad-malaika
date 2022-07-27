@@ -167,12 +167,12 @@ nav a:hover
     margin-bottom: 2px;
 }
 
-.restaurant h1, .patio h1, .patio h2, .salons h1, .salons h2
+.restaurant h1, .patio h1, .patio h2, .salons h1, .salons h2, .terrasse h1, .terrasse h2
 {
     text-align: center;
 }
 
-#image-restaurant, #image-patio, #image-salons
+#image-restaurant, #image-patio, #image-salons, #image-terrasse
 {
     margin: auto;
 }
@@ -191,16 +191,16 @@ nav a:hover
     color: white;
 }
 
-.patio .container, .salons .container
+.patio .container, .salons .container, .terrasse .container
 {
    margin-top: 0;
 }
-.patio h1, .salons h1
+.patio h1, .salons h1, .terrasse h1
 {
     margin-top: 0;
 }
 
-.patio h2, .salons h2
+.patio h2, .salons h2, .terrasse h2
 {
     font-size: 40px;
 }
@@ -212,4 +212,120 @@ nav a:hover
     background-color: #E8E8E8;
     padding-bottom: 20px;
     margin-bottom: 2px;
+}
+
+/* ------------------ TERRASSE ------------------ */
+
+.terrasse
+{
+    background-color: white;
+    padding-bottom: 20px;
+    margin-bottom: 2px;
+}
+
+/* ------------------ BANNER OFFRES------------------ */
+
+.offre-trait
+{
+    margin: 2px 0;
+    height: 3px;
+    background-color: #C1A253;
+    width: 100%;
+}
+
+.offre-banner
+{
+    width: 100%;
+    height: 100px;
+    background-color: #C1A253;
+    position: relative;
+}
+
+.offre-banner h1
+{
+    position: absolute;
+    font-family: "Roboto Light";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: white;
+    font-size: 60px;
+}
+
+/* ------------------ PACK CARD------------------ */
+
+.pack-card
+{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.pack-title
+{
+    width: 272px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+
+.pack-title h1
+{
+    font-family: "Roboto Light";
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pack
+{
+    position: relative;
+}
+
+.pack img
+{
+    width: 369px;
+    height: 206px;
+    display: block;
+}
+
+.pack-description
+{
+    height: 334px;
+    width: 369px;
+    background-color: #C1A253;
+}
+
+.pack p
+{
+    padding: 20px;
+    margin: 0;
+    line-height: 153%;
+}
+
+/* ------------------ FOOTER ------------------ */
+
+footer
+{
+    width: 100%;
+    height: 440px;
+    background-color: #232323;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer i
+{
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 15px;
+    font-size: 30px;
 }
