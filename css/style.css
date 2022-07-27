@@ -74,9 +74,9 @@ nav a:hover
 .res-riad
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     column-gap: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .riad-imgs img
@@ -101,13 +101,14 @@ nav a:hover
 .riad-description h1
 {
     margin-bottom: 100px;
+    margin-top: 0;
 }
 
 .riad-description h1::after
 {
     display: block;
     height: 5px;
-    width:8%;
+    width:20%;
     background-color: black;
     content: '';
 }
@@ -116,6 +117,7 @@ nav a:hover
 {
 
     margin-bottom: 35px;
+    font-size: 20px;
 }
 
 .riad-description a
@@ -243,6 +245,7 @@ nav a:hover
 
 .offre-banner h1
 {
+    width: 100%;
     position: absolute;
     font-family: "Roboto Light";
     top: 50%;
@@ -251,6 +254,7 @@ nav a:hover
     margin: 0;
     color: white;
     font-size: 60px;
+    text-align: center;
 }
 
 /* ------------------ PACK CARD------------------ */

@@ -1,0 +1,61 @@
+@media screen and (max-width: 1280px){
+    .riad-imgs img
+    {
+        width: 392px;
+        height: 227px;
+    }
+    .riad-description h1
+    {
+        margin-bottom: 50px;
+        font-size: 60px;
+    }
+    .riad-description p
+    {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    /* ------------------ RESERVATION RIAD ------------------ */
+    .res-riad
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .riad-description h1
+    {
+        text-align: center;
+    }
+    .riad-description h1::after
+    {
+        margin: 0 50%;
+        transform: translateX(-90%);
+    }
+    .riad-description a
+    {
+        margin: 0 50%;
+        transform: translateX(-50%);
+    }
+
+    .riad-imgs:nth-of-type(2)
+    {
+        order: -1;
+    }
+
+    /* ------------------ BANNER RIAD ------------------ */
+
+    .riad-banner
+    {
+        height: 300px;
+    }
+    .riad-banner h2
+    {
+        font-size: 60px;
+    }
+
+    /* ------------------ BANNER OFFRES------------------ */
+
+
+}

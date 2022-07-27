@@ -28,6 +28,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
         rewind: true,
         arrows: false,
         speed: 3600,
+        drag: false,
     } ).mount();
 } );
 
