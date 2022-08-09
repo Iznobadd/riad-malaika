@@ -87,3 +87,18 @@ document.addEventListener( 'DOMContentLoaded', function () {
         rewind: true,
     } ).mount();
 } );
+
+jQuery(function(){
+    $(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 200 ) {
+                $('#scrollUp').css('display', 'block');
+            }
+            else
+            {
+                $('#scrollUp').css('display', 'none');
+            }
+
+        });
+    });
+});

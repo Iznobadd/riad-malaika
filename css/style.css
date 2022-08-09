@@ -350,6 +350,7 @@ footer .reseaux::after, footer .content::after
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .footer-section
@@ -387,4 +388,12 @@ footer .copyright p
     color: black;
     padding: 20px;
     margin: 0;
+}
+
+#scrollUp
+{
+    display: none;
+    position: fixed;
+    bottom : 10px;
+    right: 20px;
 }
