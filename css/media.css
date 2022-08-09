@@ -16,6 +16,28 @@
 }
 
 @media screen and (max-width: 992px){
+
+    /* ------------------ MENU ------------------ */
+    #menu
+    {
+        display: none;
+    }
+
+    #mobile-menu
+    {
+        display: block;
+    }
+
+    #mobile-menu span
+    {
+        position: fixed;
+        right: 0;
+        margin-right: 20px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+
     /* ------------------ RESERVATION RIAD ------------------ */
     .res-riad
     {
