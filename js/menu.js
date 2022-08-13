@@ -88,6 +88,90 @@ document.addEventListener( 'DOMContentLoaded', function () {
     } ).mount();
 } );
 
+document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#chambres1-slider', {
+        height: '346px',
+        width: '519px',
+        arrows: false,
+        cover: true,
+        autoplay: true,
+        type: 'fade',
+        pagination: false,
+        speed: 1500,
+        rewind: true,
+    } ).mount();
+} );
+
+document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#chambres2-slider', {
+        height: '346px',
+        width: '519px',
+        arrows: false,
+        cover: true,
+        autoplay: true,
+        type: 'fade',
+        pagination: false,
+        speed: 1500,
+        rewind: true,
+    } ).mount();
+} );
+
+document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#chambres3-slider', {
+        height: '346px',
+        width: '519px',
+        arrows: false,
+        cover: true,
+        autoplay: true,
+        type: 'fade',
+        pagination: false,
+        speed: 1500,
+        rewind: true,
+    } ).mount();
+} );
+
+document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#chambres4-slider', {
+        height: '346px',
+        width: '519px',
+        arrows: false,
+        cover: true,
+        autoplay: true,
+        type: 'fade',
+        pagination: false,
+        speed: 1500,
+        rewind: true,
+    } ).mount();
+} );
+
+document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#chambres5-slider', {
+        height: '346px',
+        width: '519px',
+        arrows: false,
+        cover: true,
+        autoplay: true,
+        type: 'fade',
+        pagination: false,
+        speed: 1500,
+        rewind: true,
+    } ).mount();
+} );
+
+document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#chambres6-slider', {
+        height: '346px',
+        width: '519px',
+        arrows: false,
+        cover: true,
+        autoplay: true,
+        type: 'fade',
+        pagination: false,
+        speed: 1500,
+        rewind: true,
+    } ).mount();
+} );
+
 jQuery(function(){
     $(function () {
         $(window).scroll(function () {

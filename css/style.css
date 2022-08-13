@@ -16,6 +16,7 @@ p
 {
     text-align: justify;
     font-size: 20px;
+    line-height: 35px;
 }
 
 h1, h2
@@ -325,8 +326,15 @@ footer
     background-color: #232323;
     text-align: center;
     padding-top: 10px;
+    position: relative;
 }
 
+footer img
+{
+    position: absolute;
+    right: 0;
+    top: 10%;
+}
 footer i
 {
     color: white;
@@ -400,4 +408,86 @@ footer .copyright p
     position: fixed;
     bottom : 10px;
     right: 20px;
+}
+
+/* ------------------ CHAMBRES ------------------ */
+
+.chambres-banner
+{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.7)), url("../images/chambre1.jpg") fixed no-repeat;
+    background-size: cover;
+    background-position: 0 120%;
+}
+
+.l-chambres, .r-chambres
+{
+    position: relative;
+    width: 100%;
+    height: 346px;
+    margin: 50px 0;
+}
+
+.description_chambres
+{
+    position: absolute;
+    border: 2px solid black;
+    height: 220px;
+    padding: 0 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.l-chambres .description_chambres
+{
+    left: 450px;
+    background-color: #C1A253;
+}
+
+.description_chambres h2
+{
+    font-size: 40px;
+    margin: 0;
+}
+
+.description_chambres span a
+{
+    color: #C1A253;
+}
+
+.l-chambres .description_chambres span a
+{
+    float: right;
+    color: white;
+}
+
+.r-chambres section
+{
+    position: absolute;
+    width: 519px;
+    height: 346px;
+    right: 0;
+}
+
+.r-chambres .description_chambres
+{
+    right: 450px;
+    background-color: #F5F5F5;
+}
+
+/* ------------------ RESERVATION CHAMBRES ------------------ */
+
+.reservation-chambres
+{
+    background: no-repeat url("../images/reservation.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 860px;
+}
+.reservation-chambres h1
+{
+    text-align: center;
+    color: white;
 }
