@@ -506,3 +506,53 @@ footer .copyright p
     text-align: center;
     color: white;
 }
+
+/* ------------------ TABLES ------------------ */
+
+.table-banner
+{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.7)), url("../images/latable1.jpg") fixed no-repeat;
+    background-size: cover;
+    background-position: 0 120%;
+}
+.table-banner h2, .chambres-banner h2 {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.table_welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table_carte {
+    width: 30%;
+}
+.table_carte img {
+    width: 422px;
+}
+.table_description {
+    width: 70%;
+    text-align: justify;
+}
+.table_description p span {
+    font-family: 'Allison';
+    font-size: 40px;
+    line-height: 50px;
+}
+
+/* ------------------ TABLES CARTES ------------------ */
+
+.carte {
+    background-color: #C1A253;
+    padding: 20px;
+}
+.all_cartes {
+    display: flex;
+    justify-content: space-around;
+}
