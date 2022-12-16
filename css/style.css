@@ -47,6 +47,21 @@ nav ul
     flex-flow: row nowrap;
     align-items: center;
     column-gap: 100px;
+    position: relative;
+    padding: 10px 0;
+}
+.logo_img img, .booking_img img {
+    width: 100px;
+}
+.logo_img, .booking_img {
+    position: absolute;
+    
+}
+.logo_img{
+    left:50px;
+}
+.booking_img {
+    right: 50px;
 }
 
 nav a
